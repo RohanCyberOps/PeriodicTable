@@ -1,0 +1,179 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "elements": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "appearance": {
+              "type": "string"
+            },
+            "atomic_mass": {
+              "type": "number"
+            },
+            "boil": {
+              "type": "number"
+            },
+            "category": {
+              "type": "string"
+            },
+            "density": {
+              "type": "number"
+            },
+            "discovered_by": {
+              "type": "string"
+            },
+            "melt": {
+              "type": "number"
+            },
+            "molar_heat": {
+              "type": "number"
+            },
+            "named_by": {
+              "type": "string"
+            },
+            "number": {
+              "type": "integer"
+            },
+            "period": {
+              "type": "integer"
+            },
+            "group": {
+              "type": "integer"
+            },
+            "phase": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            },
+            "bohr_model_image": {
+              "type": "string"
+            },
+            "bohr_model_3d": {
+              "type": "string"
+            },
+            "spectral_img": {
+              "type": "string"
+            },
+            "summary": {
+              "type": "string"
+            },
+            "symbol": {
+              "type": "string"
+            },
+            "xpos": {
+              "type": "integer"
+            },
+            "ypos": {
+              "type": "integer"
+            },
+            "wxpos": {
+              "type": "integer"
+            },
+            "wypos": {
+              "type": "integer"
+            },
+            "shells": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "electron_configuration": {
+              "type": "string"
+            },
+            "electron_configuration_semantic": {
+              "type": "string"
+            },
+            "electron_affinity": {
+              "type": "number"
+            },
+            "electronegativity_pauling": {
+              "type": "number"
+            },
+            "ionization_energies": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "cpk-hex": {
+              "type": "string"
+            },
+            "image": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "attribution": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "url",
+                "attribution"
+              ]
+            },
+            "block": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "appearance",
+            "atomic_mass",
+            "boil",
+            "category",
+            "density",
+            "discovered_by",
+            "melt",
+            "molar_heat",
+            "named_by",
+            "number",
+            "period",
+            "group",
+            "phase",
+            "source",
+            "bohr_model_image",
+            "bohr_model_3d",
+            "spectral_img",
+            "summary",
+            "symbol",
+            "xpos",
+            "ypos",
+            "wxpos",
+            "wypos",
+            "shells",
+            "electron_configuration",
+            "electron_configuration_semantic",
+            "electron_affinity",
+            "electronegativity_pauling",
+            "ionization_energies",
+            "cpk-hex",
+            "image",
+            "block"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "elements"
+  ]
+}
