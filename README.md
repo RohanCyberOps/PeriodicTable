@@ -3,37 +3,46 @@
 
 # 🌟 Periodic Table  
 
-A sleek and interactive web-based representation of the Periodic Table of Elements. This project showcases all known chemical elements with their respective properties and allows users to explore details about each element easily.  
+A sleek and interactive application that dynamically generates a Periodic Table of Elements using data from a CSV file. This project showcases all known chemical elements with their respective properties and allows users to explore details about each element easily.  
 
 ## 🚀 Features  
-- Interactive Periodic Table layout.  
+- Interactive Periodic Table layout generated dynamically from CSV data.  
 - Displays detailed information about each element, including:  
   - Atomic number  
   - Symbol  
   - Name  
   - Atomic mass  
   - Electron configuration  
-- User-friendly design with responsive UI for all devices.  
+- User-friendly design with a responsive UI for all devices.  
 
 ## 🛠️ Technologies Used  
-- **HTML**: Structure of the web app.  
-- **CSS**: Styling for an attractive and clean interface.  
-- **JavaScript**: Adds interactivity to the Periodic Table.  
+- **Python**: Pre-processes and serves the data from the CSV file.  
+- **CSV**: Stores data about the elements in a structured format.  
+- **JavaScript**: Dynamically generates the table and adds interactivity.  
 
 ## 📂 Project Structure  
 ```
 PeriodicTable/
-├── index.html   # Main HTML file  
-├── style.css    # Stylesheet for design  
-├── script.js    # JavaScript for interactivity  
-└── README.md    # Documentation  
+├── src/
+│   ├── app.py           # Main Python script for serving the application
+│   ├── data/
+│   │   └── elements.csv  # CSV file containing element data
+│   ├── js/
+│   │   └── script.js     # JavaScript for interactivity
+│   ├── templates/
+│   │   └── index.html    # HTML file for the UI
+│   └── static/
+│       └── css/
+│           └── style.css # Stylesheet for design
+├── LICENSE               # License file
+└── README.md             # Documentation
 ```  
 
 ## 💻 Getting Started  
 
 ### Prerequisites  
-- A modern web browser (Chrome, Firefox, Edge, etc.)  
-- Basic understanding of web technologies (optional).  
+- Python 3.x installed on your system.  
+- A modern web browser (Chrome, Firefox, Edge, etc.).  
 
 ### Installation  
 1. Clone the repository:  
@@ -44,10 +53,18 @@ PeriodicTable/
    ```bash  
    cd PeriodicTable  
    ```  
-3. Open `index.html` in your browser to explore the Periodic Table.  
+3. Install required Python packages:  
+   ```bash  
+   pip install -r requirements.txt  
+   ```  
+4. Run the Python script:  
+   ```bash  
+   python src/app.py  
+   ```  
+5. Open your browser and visit `http://127.0.0.1:5000` to explore the Periodic Table.  
 
 ## 🧪 Demo  
-[Live Demo](#) — *(Add the link to a live demo or GitHub Pages URL if available)*  
+[Live Demo](#) — *(Add the link to a live demo or deployment if available)*  
 
 ## 🤝 Contributing  
 Contributions are welcome! Feel free to:  
