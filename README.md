@@ -1,4 +1,4 @@
-![Periodic Table](assets/periodic_table.png)  
+![Periodic Table](R.png)  
 ---
 
 # 🌟 Periodic Table  
