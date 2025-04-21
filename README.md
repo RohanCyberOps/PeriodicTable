@@ -47,7 +47,7 @@ PeriodicTable/
 ### Installation  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/chrohangurjar/PeriodicTable.git  
+   git clone https://github.com/RohanCyberOps/PeriodicTable.git  
    ```  
 2. Navigate to the project directory:  
    ```bash  
@@ -76,7 +76,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📧 Contact  
 **Rohan Naagar**  
-- GitHub: [@chrohangurjar](https://github.com/chrohangurjar)  
+- GitHub: [@RohanCyberOps](https://github.com/RohanCyberOps)  
 - Email: [Rohan150907@gmail.com](mailto:Rohan150907@gmail.com)  
 
 ---
